@@ -1,0 +1,12 @@
+.logo {
+  text-transform: uppercase;
+  font-size: var(--size-5);
+  font-weight: bold;
+  font-family: 'Carme', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: var(--size-6);
+  }
+}

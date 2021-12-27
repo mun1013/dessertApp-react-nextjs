@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dessert App
 
-## Getting Started
+A simple dessert app that allows you to register and edit your account profile, add your foods into the cart, place an order, and sending a feedback to the owner. :)
 
-First, run the development server:
+The following frameworks are used to build this application.
 
-```bash
-npm run dev
-# or
-yarn dev
+```
+CSS
+MongoDB
+NextJS @11.1.0
+ReactJS @17.0.2
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Install [mongoDB](https://www.mongodb.com/try/download/community) and [node](https://nodejs.org/en/).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The following steps are required to install packages for the application:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm install
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+Run the Dessert App
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# the react app will run on port 3000
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+It will redirect you to http://localhost:3000/ 
 
-## Deploy on Vercel
+1. Click Login on the navigation bar. Then, click Register New Account to register an account.
+2. Select a food from the menu, click Add To Cart.
+3. Place an order in your cart.
+4. View your orders.
+5. Send a feedback in About page.
+6. Edit your profile.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Testing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A script is configured named **test** for running Jest.
+
+```bash
+npm run test
+```

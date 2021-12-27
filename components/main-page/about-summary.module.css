@@ -1,0 +1,39 @@
+.aboutSummary {
+  height: var(--size-88);
+  width: 100%;
+  background-color: var(--color-secondary); 
+}
+
+.aboutSummary h2,
+.aboutSummary p,
+.image {
+  width: 40%;
+  display: inline-flex;
+}
+
+.aboutSummary h2 {
+  font-size: var(--size-6);
+  margin: var(--size-16) var(--size-40) var(--size-8);
+}
+
+.aboutSummary p {
+  font-size: var(--size-4);
+  margin: var(--size-1) var(--size-40) var(--size-1) var(--size-40);
+  justify-content: flex-start;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.btn {
+  width: 15%;
+  height: 3rem;
+  margin: 15px 0 0 150px;
+  display: block;
+}
+
+.image {
+  height: var(--size-80);
+  position: absolute;
+  margin-top: -340px;
+  right: 10px;
+}

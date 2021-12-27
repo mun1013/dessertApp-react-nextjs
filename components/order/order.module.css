@@ -1,0 +1,26 @@
+.order,
+.status,
+.orderDetails {
+  display: flex;
+}
+
+.order-page {
+  /* height: 48rem; */
+  margin-bottom: 4.5rem;
+} 
+
+.order,
+.orderDetails {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderDetails {
+  width: 20rem;
+}
+
+.no-item {
+  width: 15%;
+  margin: auto;
+  font-size: 1.5rem;
+}

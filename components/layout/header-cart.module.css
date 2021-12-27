@@ -1,0 +1,40 @@
+.cart {
+  display: flex;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--color-secondary);
+  padding: 0.2rem 1rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.amount {
+  background-color: var(--color-secondary-tint-1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

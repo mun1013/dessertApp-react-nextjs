@@ -1,0 +1,40 @@
+.contact {
+  width: 100%;
+  height: 48rem;
+  background-color: var(--color-secondary);
+}
+
+.contact h2 {
+  width: 40%;
+  display: inline-flex;
+  margin: var(--size-4) var(--size-40);
+}
+
+.contact p {
+  width: 40%;
+  font-size: var(--size-4h);
+  margin: var(--size-4) var(--size-40) var(--size-4) var(--size-40);
+  justify-content: flex-start;
+  text-align: justify;
+  text-justify: inter-word;
+  display: inline-flex;
+}
+
+.contactForm {
+  width: 60%;
+  height: var(--size-102);
+  position: absolute;
+  margin-top: -770px;
+  right: 120px;
+}
+
+.contactForm h2,
+.contactForm h3 {
+  text-align: end;
+}
+.contactForm h3 {
+  width: 60%;
+  text-align: justify;
+  text-justify: inter-word;
+  float: right;
+}

@@ -1,0 +1,65 @@
+.button {
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--color-secondary-shade-1);
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  /* display: flex; */
+}
+
+.button {
+  /* border: 1px solid #5a1a01; */
+  /* background-color: #5a1a01; */
+  color: white;
+}
+
+.valueButton {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  /* padding: 11px 0; */
+  background: #eee;
+
+  /* -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+}
+
+.valueButton:hover {
+  cursor: pointer;
+}
+
+/* .valueButton #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+.valueButton #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+} */
+
+.number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  /* height: 40px; */
+}
+
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
